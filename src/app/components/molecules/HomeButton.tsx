@@ -1,12 +1,12 @@
 import Link from "next/link";
 import HomeIcon from "../atoms/HomeIcon";
-import Text from "../atoms/Text";
+import HomeText from "../atoms/HomeText";
 
-export default function MenuButton() {
+export default function HomeButton() {
     return (
             <Link href="/" className="flex gap-3 px-4 py-2 items-baseline hover:bg-black">
                 <HomeIcon />
-                <Text />
+                <HomeText />
             </Link>
     )
 }
