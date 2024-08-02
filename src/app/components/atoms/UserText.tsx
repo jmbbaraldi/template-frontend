@@ -1,5 +1,5 @@
 export default function HomeText() {
     return (
-        <h1>Usuários</h1>
+        <h1>Users</h1>
     )
 }

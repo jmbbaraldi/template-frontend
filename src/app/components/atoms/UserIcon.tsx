@@ -1,7 +1,11 @@
 import { FaRegUser } from "react-icons/fa6";
 
-export default function UserIcon() {
+export interface UserIconProps {
+    size: number
+}
+
+export default function UserIcon(props: UserIconProps) {
     return (
-        <FaRegUser />
+        <FaRegUser size={props.size}/>
     )
 }
